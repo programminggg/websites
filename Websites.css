@@ -1,0 +1,57 @@
+*{
+  margin: 0%;
+  box-sizing: content-box;
+}
+
+body {
+    background-color: blue;
+    font-family: arial, helvetica;
+  }
+  
+  header{
+    width: 100%;
+    clear: both;
+    display: table;
+    margin: 0%;
+    background: black;
+    text-align: center;
+
+  }
+  
+  li a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .images{
+    margin: 5%;
+    margin: 50px 50px 50px 50px;
+  }
+  li{
+      list-style: none;
+      text-align: center;
+      margin-left: 105px;
+      float: left;
+      padding: 50px 0;
+      
+  }
+
+  li a:hover{
+      border-style: solid;
+      color: white;
+      text-align: center;
+  }
+
+.Internet{
+    width: 250px;
+    height: 110px;
+    float: left;
+    padding: 10px;
+  }
+
+  .uno, .dos, .tres, .cuatro{
+    float: left;
+  }
